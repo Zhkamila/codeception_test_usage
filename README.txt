@@ -15,7 +15,7 @@ new value
 It is only checked that 'change language' button is present, but it is not clicked and checked for its
 fucntionality.
 
-Besides that tests are passed, though pages can be implemented better and xpath locators and 
+Besides that tests are passed(HTML report is available), though pages can be implemented better and xpath locators and 
 assertions can also be improved at several places
 
 Overall I liked the Codeception framework and tried to use as many of its features as possible
