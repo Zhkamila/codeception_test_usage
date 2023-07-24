@@ -4,6 +4,8 @@ declare(strict_types=1);
 
 namespace Tests\Support\Page;
 
+use \Codeception\Step\Argument\PasswordArgument;
+
 class LoginPage
 {
     private static $EMAIL = "";
@@ -33,7 +35,7 @@ class LoginPage
     {
         $I = $this->tester;
         $I->fillField($this->emailField, self::$EMAIL);
-        $I->fillField($this->passwordField, self::$PASSWORD);
+        $I->fillField($this->passwordField, new PasswordArgument(self::$PASSWORD));
         $I->click($this->loginButton);
     }
 }
