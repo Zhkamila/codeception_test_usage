@@ -12,6 +12,9 @@ Profile Step object with only login methos is a bit unnecessary, but I wanted to
 Editing profile name and lastname does not work as expected, text is added instead of clearing and filling
 new value
 
+It is only checked that 'change language' button is present, but it is not clicked and checked for its
+fucntionality.
+
 Besides that tests are passed, though pages can be implemented better and xpath locators and 
 assertions can also be improved at several places
 
