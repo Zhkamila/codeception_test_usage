@@ -8,8 +8,12 @@ suites:
         modules:
             enabled:
                 - WebDriver:
-                    url: http://localhost
+                    url: https://doculite.com/
                     browser: chrome
+                    window_size: maximize
+                    wait: 30
+                    pageload_timeout: 30
+                    restart: true
                 
         # add Codeception\Step\Retry trait to AcceptanceTester to enable retries
         step_decorators:
